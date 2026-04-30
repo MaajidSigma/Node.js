@@ -1,0 +1,111 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  margin: 0;
+  color: #333;
+}
+
+.container {
+  max-width: 450px;
+  margin: 60px auto;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  outline: none;
+  transition: 0.2s;
+}
+
+input:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 5px rgba(102,126,234,0.5);
+}
+
+button {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #667eea;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #5a67d8;
+}
+
+ul {
+  margin-top: 20px;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background: #f9fafb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.2s;
+}
+
+li:hover {
+  transform: scale(1.02);
+  background: #eef2ff;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.nama {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.kelas {
+  font-size: 13px;
+  color: #777;
+}
+
+.aksi a {
+  margin-left: 10px;
+  font-size: 13px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.edit {
+  color: #1e88e5;
+}
+
+.hapus {
+  color: #e53935;
+}
+
+a:hover {
+  text-decoration: underline;
+}
